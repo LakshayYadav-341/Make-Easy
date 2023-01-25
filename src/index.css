@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: UBUNTU;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Montserrat;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 0.5% 2%;
+  background-color: #000;
+}
+
+#navbartoggle01 a {
+  font-size: 1.2rem;
+}
+
+.navbar-btn {
+  font-size: 1.2rem;
+}
+
+.dropdown--menu {
+  background-color: black;
+}
+
+.dropdown-menu1--li1 {
+  list-style-type: none;
+  width: 500px;
+  text-align: centre;
+}
+
+.dropdown-item {
+  color: #d9d4d4;
+}
+
+ul {
+  text-align: center;
+}
+
+.get--started {
+  width: 355px;
+}
+
+.get-started--btn {
+  float: right;
+}
+
+/* headsection */
+
+.mac--image {
+  width: 700px;
+}
+
+#carouselExampleFade {
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+}
+
+.headSection {
+  background-color: #cdf0ea;
+  padding: 1%;
+  padding-top: 3%;
+}
+
+.headSectionContent {
+  padding-left: 2.8%;
+  padding-top: 1%;
+}
+
+.headSectionh1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+.headSectionP {
+  font-weight: 700;
+}
+
+#headSectionButton {
+  padding: 3.7%;
+  font-weight: 700;
+}
+
+.headSectionImagesBackground {
+  position: absolute;
+  width: 44rem;
+}
+
+/* section space manager */
+.space-manager--image {
+  width: 35%;
+}
+
+.sectionSpaceManager {
+  background-color: #f9f9f9;
+}
+
+/* features */
+
+.table--data1 {
+  width: 50%;
+}
+
+.features {
+  background-color: #ecc5fb;
+  padding: 7% 3% 10%;
+}
+
+.featuresTitle {
+  margin-bottom: 3%;
+}
+
+.featuresTitleH1 {
+  font-weight: 700;
+  font-size: 10rem;
+  padding-bottom: 7%;
+}
+
+.features-content {
+  padding: 0% 9%;
+}
+
+.featuresTableRow1 {
+  margin: 30%;
+}
+
+.featuresCounting {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.featuresTableRightCol {
+  padding-left: 5%;
+}
+
+.featuresTableH2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.featuresButton {
+  padding-top: 30%;
+}
+
+.features-btn {
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+hr {
+  border: dotted #1f2121 6px;
+  width: 55%;
+  border-bottom: none;
+  margin: 80px auto;
+}
+
+/* products */
+
+.products {
+  background-color: #faf4b7;
+  padding: 3rem;
+  max-width: 1100;
+  margin: auto;
+  overflow: auto;
+}
+
+#products-h1 {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 800;
+}
+
+#productsMidH1 {
+  font-size: 9rem;
+  font-weight: 700;
+}
+
+.products-card {
+  background-color: #f9f9f9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  padding: 2%;
+  margin: 3%;
+  border-radius: 20px;
+  border-width: 10%;
+}
+
+.products-card:nth-child(even) img {
+  order: 2;
+}
+
+@media (max-width: 900px) {
+  .products-card {
+    display: block;
+  }
+}
+
+.productsImg {
+  width: 35rem;
+  height: 25rem;
+}
+
+.products h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.products p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+/* regestration */
+
+.regestration {
+  margin: 7%;
+}
+
+.regestration-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "one"
+    "two";
+  margin-inline: auto;
+}
+
+.regestration-card1 {
+  grid-area: one;
+}
+
+.regestration-image {
+  width: 80%;
+}
+
+.regestration-card2 {
+  grid-area: two;
+}
+
+.regestration-card2 h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+
+.regestration-card2 h4 {
+  color: #8f8f8f;
+  padding-bottom: 3rem;
+  font-weight: 400;
+}
+
+@media (min-width: 40rem) {
+  .regestration-grid {
+    grid-template-areas: "one two";
+  }
+}
+
+.regestration-btn {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* help */
+
+.help {
+  padding: 7% 15%;
+}
+
+.help-email {
+  text-align: center;
+}
+
+.help-email-input {
+  margin-top: 2%;
+  font-size: 2rem;
+  border-width: 0.2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.help h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.help h2 {
+  font-size: 2rem;
+}
+
+/* footer */
+
+.footer {
+  background-color: #000;
+  padding: 10% 3% 7%;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-logo {
+  margin: auto;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  font-size: 0.7rem;
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+.templates {
+  background-color: rgb(11, 10, 10);
+}
+
+.templates_heading {
+  color: #fff;
+  padding: 7% 12% 0%;
+}
+
+.temp_head_h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.temp_head_p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.pattern {
+  padding: 7% 12%;
+  background-color: rgb(11, 10, 10);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pattern_a {
+  color: #8f8f8f;
+}
+
+.pattern_a1 {
+  text-decoration: none;
+}
+
+.pattern_a_hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.pattern img {
+  width: 90%;
+}
