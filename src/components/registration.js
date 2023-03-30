@@ -8,7 +8,7 @@ export default function Registration() {
           <div className="regestration-card1">
             <img
               className="regestration-image"
-              src={require("../images/regestration.png")}
+              src="images/regestration.png"
               alt=""
             />
           </div>

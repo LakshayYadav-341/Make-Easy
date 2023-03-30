@@ -5,7 +5,7 @@ export default function SpaceManager() {
     <div className="space--manager">
       <div className="sectionSpaceManager">
         <img
-          src={require("../images/headSectionSpaceManager.png")}
+          src="images/headSectionSpaceManager.png"
           className="space-manager--image"
           alt="transparent--image"
         />

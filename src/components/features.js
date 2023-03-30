@@ -1,4 +1,5 @@
 import React from "react";
+import FeaturesTemplate from "./featuresTemplate";
 
 export default function Features() {
   return (
@@ -13,57 +14,33 @@ export default function Features() {
               <tr>
                 <td className="featuresTableRow1">
                   <div>
-                    <img
-                      src={require("../images/features.jpg")}
-                      width="90%"
-                      alt=""
-                    />
+                    <img src="images/features.jpg" className="features--image" width="90%" alt="" />
                   </div>
                 </td>
                 <td className="featuresTableRow2">
                   <div>
                     <table>
-                      <tr>
-                        <td>
-                          <h1 className="featuresCounting">1</h1>
-                        </td>
-                        <td className="featuresTableRightCol">
-                          <h2 className="featuresTableH2">Create a website</h2>
-                          <p className="featuresTableP">
-                            Select from any of our industry-leading website
-                            templates, designer fonts, and color palettes that
-                            best fit your personal style and professional needs.
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h1 className="featuresCounting">2</h1>
-                        </td>
-                        <td className="featuresTableRightCol">
-                          <h2 className="featuresTableH2">Sell anything</h2>
-                          <p className="featuresTableP">
-                            Explore which tools you want to add—whether it’s
-                            setting up an online store, booking services, or
-                            adding your favorite third-party extensions.
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h1 className="featuresCounting">3</h1>
-                        </td>
-                        <td className="featuresTableRightCol">
-                          <h2 className="featuresTableH2">
-                            Market your business
-                          </h2>
-                          <p className="featuresTableP">
-                            Stand out in every inbox and social feed. On-brand
-                            email campaigns and social tools make it easy to
-                            retain customers and grow your audience.
-                          </p>
-                        </td>
-                      </tr>
+                      <FeaturesTemplate
+                        count="1"
+                        heading="Create a website"
+                        text="Select from any of our industry-leading website
+                      templates, designer fonts, and color palettes that
+                      best fit your personal style and professional needs."
+                      />
+                      <FeaturesTemplate
+                        count="2"
+                        heading="Sell anything"
+                        text="Explore which tools you want to add—whether it’s
+                      setting up an online store, booking services, or
+                      adding your favorite third-party extensions."
+                      />
+                      <FeaturesTemplate
+                        count="3"
+                        heading="Market your business"
+                        text="Stand out in every inbox and social feed. On-brand
+                      email campaigns and social tools make it easy to
+                      retain customers and grow your audience."
+                      />
                       <tr>
                         <td>
                           <div className="featuresButton">

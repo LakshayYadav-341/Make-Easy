@@ -71,13 +71,13 @@ export default function Template() {
             </a>
           </div>
           <div className="pattern_image">
-            <img src={require("../images/pattern1.jpg")} className="pimg1 display_none" alt="" />
-            <img src={require("../images/pattern2.jpg")} className="pimg2 display_none" alt="" />
-            <img src={require("../images/pattern3.jpg")} className="pimg3 display_none" alt="" />
-            <img src={require("../images/pattern4.jpg")} className="pimg4 display_none" alt="" />
-            <img src={require("../images/pattern5.jpg")} className="pimg5 display_none" alt="" />
-            <img src={require("../images/pattern6.jpg")} className="pimg6 display_none" alt="" />
-            <img src={require("../images/pattern7.jpg")} className="pimg7 display_none" alt="" />
+            <img src="images/pattern1.jpg" className="pimg1 display_none" alt="" />
+            <img src="images/pattern2.jpg" className="pimg2 display_none" alt="" />
+            <img src="images/pattern3.jpg" className="pimg3 display_none" alt="" />
+            <img src="images/pattern4.jpg" className="pimg4 display_none" alt="" />
+            <img src="images/pattern5.jpg" className="pimg5 display_none" alt="" />
+            <img src="images/pattern6.jpg" className="pimg6 display_none" alt="" />
+            <img src="images/pattern7.jpg" className="pimg7 display_none" alt="" />
           </div>
         </div>
       </div>

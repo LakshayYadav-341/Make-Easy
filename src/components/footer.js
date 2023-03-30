@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer">
         <div className="footer-grid">
           <div className="footer-logo">
-            <img  src={require("../images/websiteLogo.png")} width="70%" alt="" />
+            <img  src="images/websiteLogo.png" width="70%" alt="" />
           </div>
           <div className="footer-nav">
             <h2>PRODUCTS</h2>

@@ -5,7 +5,7 @@ export default function Section() {
     <div className="section--">
       <section className="headSection">
         <div className="row">
-          <div className="col headSectionContent col-lg-4">
+          <div className="col headSectionContent col-lg-4 col-md-12">
             <div>
               <h1 className="headSectionh1">Get All You Need To Sell Anything</h1>
               <p className="headSectionP">
@@ -22,7 +22,7 @@ export default function Section() {
               <div>
                 <img
                   className="headSectionImagesBackground"
-                  src={require("../images/background.jpg")}
+                  src="images/background.jpg"
                   alt=""
                 />
                 <div
@@ -34,21 +34,21 @@ export default function Section() {
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
-                        src={require("../images/website-photo1.jpg")}
+                        src="images/website-photo1.jpg"
                         className="d-block w-100"
                         alt="..."
                       />
                     </div>
                     <div className="carousel-item">
                       <img
-                        src={require("../images/website-photo2.jpg")}
+                        src="images/website-photo2.jpg"
                         className="d-block w-100"
                         alt="..."
                       />
                     </div>
                     <div className="carousel-item">
                       <img
-                        src={require("../images/website-photo3.jpg")}
+                        src="images/website-photo3.jpg"
                         className="d-block w-100"
                         alt="..."
                       />

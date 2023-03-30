@@ -8,7 +8,7 @@ export default function Navbar() {
           <img
             className="Website-logo"
             width="30%"
-            src={require("../images/websiteLogo.png")}
+            src="images/websiteLogo.png"
             alt="Website logo"
           />
         </a>
